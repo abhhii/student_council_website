@@ -176,6 +176,11 @@ svg path { fill: white; }
   align-content: center;
 }
 
+#purposebox > h3{
+  text-align: center;
+  align-content: center;
+}
+
 #purpose{
   margin: 10px auto;
 }
