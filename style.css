@@ -42,9 +42,10 @@ body {
 }
 
 #body_cache {
-  background:url(
+  background: #bfbfbf;
+  /* background:url(
     data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAMklEQVQYV2NcOG/hfwYkICcrx8CILAgSePT4EUIQJgDSBFYJE4Cr3L97/3+QFhgASQAAt+YeE03jbBcAAAAASUVORK5CYII=
-  ) repeat;
+  ) repeat; */
   position: fixed;
   top: 0;
   left: 0;
@@ -171,6 +172,7 @@ svg path { fill: white; }
 
 #purposebox{
   margin: 80px 100px 80px 100px;
+  text-align: center;
   align-content: center;
 }
 
