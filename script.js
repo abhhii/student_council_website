@@ -41,8 +41,12 @@ class Profile {
     profile_card_elements.appendChild(profileEmail);
 
     profile_card_desc.appendChild(profile_card_elements);
+    
+    // let profile_job_title_outer = document.createElement("p");
+    // profile_job_title_outer.innerHTML =  this.profile_job;
 
     profile_block.appendChild(profile_card_image);
+    // profile_block.appendChild(profile_job_title_outer);
     profile_block.appendChild(profile_card_desc);
 
     this.addElementToMain(profile_block);

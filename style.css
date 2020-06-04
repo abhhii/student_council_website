@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Inconsolata|Saira+Stencil+One&display=swap');
 :root {
-  --main-width-card: 250px;
+  --main-width-card: 255px;
+  --main-height-card: 258px;
   --main-width-card-mini: 60px;
-  --main-decalage-desc: 22px;
+  --main-decalage-desc: 44px;
   --main-decalage-shadow: 6px;
   --main-blue-color: #0e769e;
   --main-white-color: #e6e4e3;
@@ -75,16 +76,17 @@ svg path { fill: white; }
 
 .profile-card {
   width: var(--main-width-card);
-  height: var(--main-width-card);
+  height: var(--main-height-card) ;
   position: relative;
   cursor: pointer;
   display: inline-block;
-  margin: auto 30px 30px;
+  margin: auto 50px 60px;
   text-align: left;
 }
 
 .profile-card-description, .profile-card-image {
   position: absolute;
+  /* margin-top: 50px; */
   width: 100%;
   height: 100%;
   border-radius: 5px;
@@ -94,21 +96,23 @@ svg path { fill: white; }
   z-index: 2;
   top: 0;
   left: 0;
+  /* bottom : 100  ; */
   transition: top .3s, left .3s, width .3s .3s, height .3s .3s;
 }
 
 .profile-card-description {
   background-color: white;
   z-index: 1;
-  top: var(--main-decalage-desc);
-  left: var(--main-decalage-desc);
+  top: var(--main-decalage-desc)  ;
+  left: var(--main-decalage-desc) ;
   overflow: hidden;
+  /* margin-top: 10px; */
   transition: top .3s, left .3s, width .3s, height .3s;
 }
 
 .profile-card-description-elements {
   position: absolute;
-  top: calc(var(--main-width-card) - 20px);
+  top: calc(var(--main-width-card) - 40px);
   padding: 0 10px;
   transition: top .3s;
 }
@@ -116,7 +120,8 @@ svg path { fill: white; }
 .profile-card-description-elements > h2 {
   font-family: 'Inconsolata', cursive;
   margin: 0;
-  font-size: 16px;
+  font-weight: bold;
+  font-size: 17px;
   color: #444444;
   transition: font-size .3s .0s, padding-left .3s .0s;
 }
@@ -134,7 +139,7 @@ svg path { fill: white; }
   font-size: 14px;
   color: grey;
 }
-
+/* Brings image little down and right just before hover animatiion */
 .profile-card:hover .profile-card-image {
   top: 10px;
   left: 10px;
@@ -164,15 +169,29 @@ svg path { fill: white; }
   transition: font-size .3s .3s, padding-left .3s .3s;
 }
 
+#purposebox{
+  margin: 80px 100px 80px 100px;
+  align-content: center;
+}
+
+#purpose{
+  margin: 10px auto;
+}
+
+#pagetitle{
+  margin: 20px auto;
+}
+
 #avatar { display: none; }
 
 
-
+/* FOOTER CSS */ 
 
 /* FOOTER */
 .footer {
 	width: 100%;
-	background: #00121b;
+  background: #00121b;
+  margin-top: 100px;
 	display: block;
  }
 
@@ -227,7 +246,7 @@ ul a {
 	transition: 0.3s;
 }
 
-ul a:hover {
+ul a:  {
 	color: #ff9800;
 }
 
