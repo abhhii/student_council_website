@@ -92,7 +92,7 @@ var p3 = new Profile(
   "Got a problem with admin..contact this guy",
   "hiteshd17c@iiitt.ac.in",
   "var(--main-red-color)",
-  "daksh.jpg"
+  "daksh.webp"
 );
 p3.create();
 
@@ -102,7 +102,7 @@ var p4 = new Profile(
     "This guy will solve any technical problems related to the institute",
     "abhisheks17c@iiitt.ac.in",
     "var(--main-red-color)",
-    "abhi.jpg"
+    "abhi.webp"
   );
   p4.create();
 
