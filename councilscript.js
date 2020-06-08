@@ -69,10 +69,10 @@ class Profile {
 var p1 = new Profile(
   "Priyanka Jacob",
   "President",
-  "She is the president",
+  "The Student President is the head of the student council... Feel free to contact in case of any issues... Also the other members for specific profiles, might help you with specific problems or ideas.. But do not hesitate to contact &#128516;",
   "priyankaj16e@iiitt.ac.in",
   "var(--main-blue-color)",
-  "cake.png"
+  "priyanka.webp"
 );
 p1.create();
 
@@ -82,7 +82,7 @@ var p2 = new Profile(
   "He is the vice president",
   "sairam16e@iiitt.ac.in",
   "var(--main-white-color)",
-  "circus.png"
+  "safe.png"
 );
 p2.create();
 
@@ -119,9 +119,9 @@ var p5 = new Profile(
   var p6 = new Profile(
     "Sai Teja",
     "Sports Representative",
-    "Wanna play a game...contact this guy",
+    "To produce the minutes of Sports Exec meetings and Sports Standings, organise Club Photos, provide administration support as well as scrutinise sports clubs administration and procedures ensuring they are in check.",
     "megawaths17c@iiitt.ac.in",
     "var(--main-red-color)",
-    "circus.png"
+    "teja.webp"
   );
   p6.create();
