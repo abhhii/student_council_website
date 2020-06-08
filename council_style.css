@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Inconsolata|Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Inconsolata|Saira+Stencil+One&display=swap');
 :root {
   --main-width-card: 255px;
   --main-height-card: 258px;
@@ -35,13 +36,12 @@ h3 {
 }
 
 body {
-  margin: 0;
-  height: 100vh;
-  display: grid;
-  font-family: 'Baloo Chettan 2', sans-serif;
+  /* height: 100vh; */
+  /* display: grid; */
+  /* font-family: 'Baloo Chettan 2', sans-serif; */
 }
 
-#body_cache {
+/* #body_cache {
   background: #bfbfbf;
   /* background:url(
     data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAMklEQVQYV2NcOG/hfwYkICcrx8CILAgSePT4EUIQJgDSBFYJE4Cr3L97/3+QFhgASQAAt+YeE03jbBcAAAAASUVORK5CYII=
@@ -52,7 +52,7 @@ body {
   right: 0;
   bottom: 0;
   opacity: .5;
-}
+} */
 
 /* h1::after {
   content: "";
@@ -83,6 +83,7 @@ svg path { fill: white; }
   display: inline-block;
   margin: auto 50px 60px;
   text-align: left;
+  /* color: #c5362b; */
 }
 
 .profile-card-description, .profile-card-image {
@@ -109,6 +110,8 @@ svg path { fill: white; }
   overflow: hidden;
   /* margin-top: 10px; */
   transition: top .3s, left .3s, width .3s, height .3s;
+  border: 1px solid #bbb;
+  box-shadow: 0 2px 4px #555;
 }
 
 .profile-card-description-elements {
@@ -171,25 +174,42 @@ svg path { fill: white; }
 }
 
 #purposebox{
-  margin: 80px 100px 80px 100px;
+  margin: 10px 100px 40px 100px;
   text-align: center;
   align-content: center;
+  border: 1px solid #bbb;
+  box-shadow: 0 4px 8px #aaa;
+  padding: 20px;
 }
 
 #purposebox > h3{
   text-align: center;
   align-content: center;
+  margin: 0px auto 30px auto;
 }
 
 #purpose{
-  margin: 10px auto;
+  margin-top: 2px ;
+  /*   */
 }
 
 #pagetitle{
   margin: 20px auto;
 }
 
+#contactcouncil{
+  margin: 15px auto 10px auto;
+  width: 50%;
+  border: 1px solid #bbb;
+  box-shadow: 0 4px 8px #aaa;
+}
+
+#getintouch{
+  margin: 5px auto 30px auto;
+}
+
 #avatar { display: none; }
+
 
 
 /* FOOTER CSS */ 
