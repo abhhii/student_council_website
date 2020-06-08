@@ -89,7 +89,7 @@ p2.create();
 var p3 = new Profile(
   "Hitesh Daksh",
   "Administrative Representative",
-  "Hi! Found any administrative actions unbeneficial for students or issues to should look into, approach me. Usually, a quote comes here from The Office \"I am running away from my responsibilities. And it feels good\".",
+  "Found any admin actions unbeneficial for students or issues to should look into, approach me. A quote comes here from The Office \"I am running away from my responsibilities. And it feels good\".",
   "<i class=\"fa fa-envelope fa-2x\" style=\"margin-right: 10px;\"></i>hiteshd17c@iiitt.ac.in",
   "var(--main-red-color)",
   "daksh.webp"
@@ -119,7 +119,7 @@ var p5 = new Profile(
   var p6 = new Profile(
     "Sai Teja",
     "Sports Representative",
-    "To produce the minutes of Sports Exec meetings and Sports Standings, organise Club Photos, provide administration support as well as scrutinise sports clubs administration and procedures ensuring they are in check.",
+    "To produce the minutes of Sports Exec meetings and Sports Standings, organise Club Photos, provide administration support and scrutinise sports clubs administration and procedures ensuring they are in check.",
     "<i class=\"fa fa-envelope fa-2x\" style=\"margin-right: 10px;\"></i>megawaths17c@iiitt.ac.in",
     "var(--main-red-color)",
     "teja.webp"
